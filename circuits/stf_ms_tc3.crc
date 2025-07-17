@@ -1,0 +1,419 @@
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC1
+[STF.MS.TC.TC3.SEC1]
+Pos = 857, 210
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC1
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC2
+[STF.MS.TC.TC3.SEC2]
+Pos = 863, 211
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC2
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC3
+[STF.MS.TC.TC3.SEC3]
+Pos = 869, 212
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC3
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC4
+[STF.MS.TC.TC3.SEC4]
+Pos = 875, 213
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC4
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC5
+[STF.MS.TC.TC3.SEC5]
+Pos = 881, 214
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC5
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC6
+[STF.MS.TC.TC3.SEC6]
+Pos = 887, 215
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC6
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC7
+[STF.MS.TC.TC3.SEC7]
+Pos = 893, 216
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC7
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC8
+[STF.MS.TC.TC3.SEC8]
+Pos = 899, 217
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC8
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC9
+[STF.MS.TC.TC3.SEC9]
+Pos = 905, 218
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC9
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC10
+[STF.MS.TC.TC3.SEC10]
+Pos = 911, 219
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC10
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC11
+[STF.MS.TC.TC3.SEC11]
+Pos = 917, 220
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC11
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC12
+[STF.MS.TC.TC3.SEC12]
+Pos = 923, 221
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC12
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC13
+[STF.MS.TC.TC3.SEC13]
+Pos = 929, 222
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC13
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC14
+[STF.MS.TC.TC3.SEC14]
+Pos = 935, 223
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC14
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC15
+[STF.MS.TC.TC3.SEC15]
+Pos = 941, 224
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC15
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC16
+[STF.MS.TC.TC3.SEC16]
+Pos = 947, 225
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC16
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC17
+[STF.MS.TC.TC3.SEC17]
+Pos = 953, 226
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC17
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC18
+[STF.MS.TC.TC3.SEC18]
+Pos = 959, 227
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC18
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC19
+[STF.MS.TC.TC3.SEC19]
+Pos = 965, 228
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC19
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC20
+[STF.MS.TC.TC3.SEC20]
+Pos = 971, 229
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC20
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC21
+[STF.MS.TC.TC3.SEC21]
+Pos = 977, 230
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC21
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC22
+[STF.MS.TC.TC3.SEC22]
+Pos = 983, 231
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC22
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC23
+[STF.MS.TC.TC3.SEC23]
+Pos = 989, 232
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC23
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC24
+[STF.MS.TC.TC3.SEC24]
+Pos = 995, 233
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC24
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC25
+[STF.MS.TC.TC3.SEC25]
+Pos = 1001, 234
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC25
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC26
+[STF.MS.TC.TC3.SEC26]
+Pos = 1007, 235
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC26
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC27
+[STF.MS.TC.TC3.SEC27]
+Pos = 1013, 236
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC27
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC28
+[STF.MS.TC.TC3.SEC28]
+Pos = 1019, 237
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC28
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC29
+[STF.MS.TC.TC3.SEC29]
+Pos = 1025, 238
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC29
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC30
+[STF.MS.TC.TC3.SEC30]
+Pos = 1031, 239
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC30
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC31
+[STF.MS.TC.TC3.SEC31]
+Pos = 1037, 240
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC31
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC32
+[STF.MS.TC.TC3.SEC32]
+Pos = 1043, 241
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC32
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC33
+[STF.MS.TC.TC3.SEC33]
+Pos = 1049, 242
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC33
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC34
+[STF.MS.TC.TC3.SEC34]
+Pos = 1055, 243
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC34
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC3.SEC35
+[STF.MS.TC.TC3.SEC35]
+Pos = 1061, 244
+Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
+Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
+Hint = STF.MS.TC.TC3.SEC35
+[]

@@ -1,0 +1,37 @@
+;******************
+; Server Clock/Name
+;******************
+[SensorList]
+Sensor = STF.DIM.LABEL
+[STF.DIM.LABEL]
+Pos = 470, 1
+LED = 0, 0, 0, *, Name:PT_Mono\Style:[]\Size:10
+Tag#1 = 0, ~~\resource\daqsite\stdlib\bitmaps\barbmp_150_15_24_silver.bmp "Время/Имя сервера:"
+Hint = Время и имя сервера (host date-time and name)
+[]
+
+[SensorList]
+Sensor = STF.DIM.CLOCK
+[STF.DIM.CLOCK]
+Pos = 470, 16
+LED = 19, 0, 0, %s, Name:PT_Mono\Style:[Bold]\Size:9
+Painter(v) = (glBarColor=linkedtagcolor()+clRed*eq(linkedtagcolor(),0))
+Painter(v) = [Painter(v).GuiLib.SimpleBar]
+Painter(v) = (glBorderBevel=1)+(glBorderColor=clGray)
+Painter(v) = [Painter(v).GuiLib.SimpleBorder]
+Tag#1 = 0, ~~\resource\daqsite\stdlib\bitmaps\barbmp_150_17_24_silver.bmp
+Hint = Дата и время сервера (host date and time)
+[]
+
+[SensorList]
+Sensor = STF.DIM.SERVID
+[STF.DIM.SERVID]
+Pos = 470, 32
+LED = 19, 0, 0, %s, Name:PT_Sans_Narrow\Style:[]\Size:10
+Painter(v) = (glBarColor=linkedtagcolor()+clRed*eq(linkedtagcolor(),0))
+Painter(v) = [Painter(v).GuiLib.SimpleBar]
+Painter(v) = (glBorderBevel=1)+(glBorderColor=clGray)
+Painter(v) = [Painter(v).GuiLib.SimpleBorder]
+Tag#1 = 0, ~~\resource\daqsite\stdlib\bitmaps\barbmp_150_17_24_silver.bmp
+Hint = Идентификатор сервера (server identifier)
+[]

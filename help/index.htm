@@ -1,0 +1,236 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" Content="ru">
+<style>
+ /*
+ Generated 11.07.2025-12:13:00.23 with command: pandoc -f markdown+emoji+abbreviations -t html --highlight-style=kate
+ */
+ /*
+ The pandoc highlight styles for DaqGroup
+ */
+code{white-space: pre;}
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode { margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #000090; font-weight: bold; }                       /* Keyword */
+code > span.dt { color: #006060; font-weight: bold; }                       /* DataType */
+code > span.dv { color: #009090; font-weight: bold; }                       /* DecVal */
+code > span.bn { color: #009090; font-weight: bold; }                       /* BaseN */
+code > span.fl { color: #009090; font-weight: bold; }                       /* Float */
+code > span.ch { color: #ff0080; }                                          /* Char */
+code > span.st { color: #d01040; }                                          /* String */
+code > span.co { color: #909080; font-style: italic; }                      /* Comment */
+code > span.ot { color: #007020; }                                          /* Other */
+code > span.al { color: #ff0000; font-weight: bold; }                       /* Alert */
+code > span.fu { color: #900000; font-weight: bold; }                       /* Function */
+code > span.er { color: #ff0000; font-weight: bold; }                       /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }   /* Warning */
+code > span.cn { color: #880000; }                                          /* Constant */
+code > span.sc { color: #4070a0; }                                          /* SpecialChar */
+code > span.vs { color: #4070a0; }                                          /* VerbatimString */
+code > span.ss { color: #bb6688; }                                          /* SpecialString */
+code > span.im { color: #d01040; }                                          /* Import */
+code > span.va { color: #19177c; }                                          /* Variable */
+code > span.cf { color: #007020; font-weight: bold; }                       /* ControlFlow */
+code > span.op { color: #000000; font-weight: bold; }                       /* Operator */
+code > span.bu { color: #3030d0; font-weight: bold; }                       /* BuiltIn */
+code > span.ex { }                                                          /* Extension */
+code > span.pp { color: #bc7a00; font-weight: bold; }                       /* Preprocessor */
+code > span.at { color: #d01040; font-weight: bold; }                       /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; }                      /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; }   /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; }   /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; }   /* Information */
+ /*
+ The highlight styles from prism.css
+ */
+.token.string,
+.token.attr-value {
+  color: #d14
+}
+
+.token.entity,
+.token.url,
+.token.symbol,
+.token.number,
+.token.boolean,
+.token.variable,
+.token.constant,
+.token.property,
+.token.regex,
+.token.inserted {
+  color: #099
+}
+
+.token.atrule,
+.token.keyword,
+.token.attr-name,
+.language-autohotkey .token.selector {
+  font-weight: bold
+}
+
+.token.function,
+.token.deleted,
+.language-autohotkey .token.tag {
+  color: #900
+}
+
+.token.class-name {
+  color: #458;
+  font-weight: bold
+}
+
+.token.tag,
+.token.selector,
+.language-autohotkey .token.keyword {
+  color: #009
+}
+
+.token.important,
+.token.function,
+.token.bold {
+  font-weight: bold
+}
+
+.token.italic {
+  font-style: italic
+} 
+/*
+ DaqGroup Help Styles
+ */
+body    { color:black; background-color:#E0E0E0; }
+body    { margin:0px 10px; padding:0px 0px; font-size:12pt; font-weight:normal; font-family:'PT Mono',monospace; }
+body    { line-height: 130%; }
+pre, tt { text-align:left; vertical-align:center; }
+pre, tt { color:black; background-color: #FFF0F0; }
+pre, tt { margin:10px; padding:1px 8px 1px 8px; border:1px solid red; border-radius:4px; }
+pre, tt { line-height: 110%; font-size:9pt; font-weight:normal; font-family:'PT Mono',monospace; }
+ /*
+ DaqGroup User Styles Classes
+ */
+.hidden     {display:none;}
+.compact    {line-height:100%;}
+.left       {text-align:left;}
+.right      {text-align:right;}
+.center     {text-align:center;}
+.small      {font-size:60%;}
+.smaller    {font-size:75%;}
+.normal     {font-size:100%;}
+.bigger     {font-size:125%;}
+.big        {font-size:140%;}
+.huge       {font-size:200%;}
+.bold       {font-weight:bold;}
+.td1        {text-align:left;font-size:10pt;}
+.td2        {text-align:justify;font-size:12pt;}
+.black      {color:black;}      .fgblack      {color:black;}      .bgblack      {background-color:black;}
+.maroon     {color:maroon;}     .fgmaroon     {color:maroon;}     .bgmaroon     {background-color:maroon;}
+.green      {color:green;}      .fggreen      {color:green;}      .bggreen      {background-color:green;}
+.olive      {color:olive;}      .fgolive      {color:olive;}      .bgolive      {background-color:olive;}
+.navy       {color:navy;}       .fgnavy       {color:navy;}       .bgnavy       {background-color:navy;}
+.purple     {color:purple;}     .fgpurple     {color:purple;}     .bgpurple     {background-color:purple;}
+.teal       {color:teal;}       .fgteal       {color:teal;}       .bgteal       {background-color:teal;}
+.silver     {color:silver;}     .fgsilver     {color:silver;}     .bgsilver     {background-color:silver;}
+.gray       {color:gray;}       .fggray       {color:gray;}       .bggray       {background-color:gray;}
+.red        {color:red;}        .fgred        {color:red;}        .bgred        {background-color:red;}
+.lime       {color:lime;}       .fglime       {color:lime;}       .bglime       {background-color:lime;}
+.yellow     {color:yellow;}     .fgyellow     {color:yellow;}     .bgyellow     {background-color:yellow;}
+.blue       {color:blue;}       .fgblue       {color:blue;}       .bgblue       {background-color:blue;}
+.fuchsia    {color:fuchsia;}    .fgfuchsia    {color:fuchsia;}    .bgfuchsia    {background-color:fuchsia;}
+.aqua       {color:aqua;}       .fgaqua       {color:aqua;}       .bgaqua       {background-color:aqua;}
+.white      {color:white;}      .fgwhite      {color:white;}      .bgwhite      {background-color:white;}
+.code       {background-color:#FFF0F0;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid red;}
+.note       {background-color:Lavender;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid blue;}
+.memo       {background-color:#FEF3A3;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid blue;}
+.demo       {background-color:#A3FEF3;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid blue;}
+.info       {background-color:LemonChiffon;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid blue;}
+.dead       {background-color:LightGray;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid blue;}
+.serv       {background-color:PowderBlue;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid blue;}
+.user       {background-color:PaleGreen;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid blue;}
+.main       {background-color:lime;color:black;padding:1px 8px 1px 8px;border-radius:4px;border:1px solid blue;}
+.border1px  {border-width:1px;}
+.border2px  {border-width:2px;}
+.border3px  {border-width:3px;}
+.border4px  {border-width:4px;}
+.border5px  {border-width:5px;}
+.border6px  {border-width:6px;}
+.border7px  {border-width:7px;}
+.border8px  {border-width:8px;}
+.radius1px  {border-radius:1px;}
+.radius2px  {border-radius:2px;}
+.radius3px  {border-radius:3px;}
+.radius4px  {border-radius:4px;}
+.radius5px  {border-radius:5px;}
+.radius6px  {border-radius:6px;}
+.radius7px  {border-radius:7px;}
+.radius8px  {border-radius:8px;}
+.solid      {border-style:solid;}
+.dotted     {border-style:dotted;}
+.dashed     {border-style:dashed;}
+.double     {border-style:double;}
+.bdblack    {border-color:black;}
+.bdmaroon   {border-color:maroon;}
+.bdgreen    {border-color:green;}
+.bdolive    {border-color:olive;}
+.bdnavy     {border-color:navy;}
+.bdpurple   {border-color:purple;}
+.bdteal     {border-color:teal;}
+.bdsilver   {border-color:silver;}
+.bdgray     {border-color:gray;}
+.bdred      {border-color:red;}
+.bdlime     {border-color:lime;}
+.bdyellow   {border-color:yellow;}
+.bdblue     {border-color:blue;}
+.bdfuchsia  {border-color:fuchsia;}
+.bdaqua     {border-color:aqua;}
+.bdwhite    {border-color:white;}
+ /*
+ Experimental Styles
+ */
+code { border-radius: 4px; }
+ins  { background-color: lightyellow; }
+mark { background-color: yellow; border: 1px dashed blue; }
+abbr { background-color: lightyellow; color: navy; border-bottom: 1px dashed red; font-weight: bold; }
+ /*
+ Markdown Viewer Styles
+ */
+body { background-color: #F7F7F7; }
+body, code, pre, tt { font-family:'PT Mono','Liberation Mono','Andale Mono','Courier New',monospace; }
+body { font-size:12pt; } code, pre, tt { font-size:12pt; }
+pre, tt { border: 1px solid red; border-radius: 4px; padding: 4px 8px; }
+code, pre, tt { background-color: mistyrose; }
+table, tr, th, td { border: 1px solid gray; }
+td { background-color: #F0F0F0; }
+th { background-color: silver; }
+td, th { padding: 4px 8px; }
+blockquote { border: 1px dotted silver; border-left: 8px solid silver; padding: 0 15px; color: navy; background-color: lightyellow; }
+h1, h2, h3, h4, h5, h6 { color: black; }
+</style>
+</head>
+<body>
+<hr />
+<p><b id="toc" class="big memo">Содержание</b></p>
+<div id="TOC">
+<ul>
+<li><a href="#синхротронный-комплекс-испыт...-игровой">Синхротронный Комплекс Испыт... — Игровой</a></li>
+</ul>
+</div>
+<hr />
+<h1 id="синхротронный-комплекс-испыт...-игровой">Синхротронный Комплекс Испыт... — Игровой</h1>
+<p>Что делать, если хочешь погонять шары по синхротрону, а синхротрона нету?</p>
+<p>У <strong>DaqGroup</strong> всегда есть решение! Представляем новый симулятор, в котором вы можете:</p>
+<ol style="list-style-type: decimal">
+<li>Ускорять частицы по кольцу бустера и синхротрона;</li>
+<li>Направлять пучки частиц в испытательные камеры;</li>
+<li>Задавать энергию и интенсивность пучка;</li>
+<li>Так же вы можете сломать и починить синхротрон и бустер (с настоящим так не сделаешь — он и сам сломается без твоей помощи).</li>
+</ol>
+<hr />
+<blockquote>
+<p>STF Copyright (c) 2025 DaqGroup <a href="mailto:daqgroup@mail.ru">daqgroup@mail.ru</a></p>
+</blockquote>
+<hr />
+</body>
+</html>

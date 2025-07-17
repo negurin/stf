@@ -1,0 +1,135 @@
+[Circuit]
+GeneralMap = ..\bitmaps\stf_main_ctrl.bmp
+Hint = Панель управления STF
+ToolBarHeight = 0
+[]
+
+[ConfigFileList] ; Include the Painter GUI Library
+ConfigFile = ~~\resource\daqsite\default\painter.crc
+; ConfigFile = stf_dim_ctrl.crc
+ConfigFile = stf_ctrl.crc
+ConfigFile = stf_ba_inj.crc
+ConfigFile = stf_ba_bs.crc
+ConfigFile = stf_ba_bps.crc
+ConfigFile = stf_ms.crc
+ConfigFile = stf_ba_btc.crc
+ConfigFile = stf_ba_btc_tc11.crc
+ConfigFile = stf_ba_btc_tc12.crc
+ConfigFile = stf_ba_btc_tc13.crc
+ConfigFile = stf_ms_tc.crc
+ConfigFile = stf_ms_tc21.crc
+ConfigFile = stf_ms_tc22.crc
+ConfigFile = stf_ms_tc3.crc
+ConfigFile = stf_ba_la1.crc
+[]
+
+;****************
+; Toolbar buttons
+;****************
+[SensorList]
+Sensor = STF.MAIN.CMD.HOME
+[STF.MAIN.CMD.HOME]
+Pos = 1150, 25
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_home.bmp
+Hint = Переместить все окна в начальные положения
+ToolBarOpaque = 1
+ToolBarBorder = 0
+ToolBarSpace  = 2
+ToolBarKey    = 1
+[]
+
+[SensorList]
+Sensor = @BrowseHelp
+[@BrowseHelp]
+Pos = 1195, 25
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_help.bmp
+Hint = Открыть справку
+ToolBarOpaque = 1
+ToolBarBorder = 0
+ToolBarSpace  = 2
+ToolBarKey    = 0
+[]
+
+[SensorList]
+Sensor = STF.MAIN.CMD.OPEN
+[STF.MAIN.CMD.OPEN]
+Pos = 150, 1000
+Painter(v) = (glButtonBit=0)+(glButtonBevel=2)
+Painter(v) = [Painter(v).GuiLib.Cmd.Open]
+Painter(v) = [Painter(v).GuiLib.SimpleButton]
+Tag#1 = 0, ~~\resource\daqsite\stdlib\bitmaps\barbmp_32_32_4_silver.bmp
+Hint = Открыть файл данных *.dat
+ToolBarOpaque = 1
+ToolBarBorder = 0
+ToolBarSpace  = 2
+ToolBarKey    = 1
+[]
+
+[SensorList]
+Sensor = STF.MAIN.CMD.SAVE
+[STF.MAIN.CMD.SAVE]
+Pos = 290, 1000
+Painter(v) = (glButtonBit=0)+(glButtonBevel=2)
+Painter(v) = [Painter(v).GuiLib.Cmd.Save]
+Painter(v) = [Painter(v).GuiLib.SimpleButton]
+Tag#1 = 0, ~~\resource\daqsite\stdlib\bitmaps\barbmp_32_32_4_silver.bmp
+Hint = Сохранять данные в .dat файл
+ToolBarOpaque = 1
+ToolBarBorder = 0
+ToolBarSpace  = 2
+ToolBarKey    = 1
+[]
+
+[SensorList]
+Sensor = STF.MAIN.CMD.TOOLS
+[STF.MAIN.CMD.TOOLS]
+Pos = 430, 1000
+Painter(v) = (glButtonBit=0)+(glButtonBevel=2)
+Painter(v) = [Painter(v).GuiLib.Cmd.Tools]
+Painter(v) = [Painter(v).GuiLib.SimpleButton]
+Tag#1 = 0, ~~\resource\daqsite\stdlib\bitmaps\barbmp_32_32_4_silver.bmp
+Hint = Вызвать меню инструментов
+ToolBarOpaque = 1
+ToolBarBorder = 0
+ToolBarSpace  = 2
+ToolBarKey    = 1
+[]
+
+[SensorList]
+Sensor = STF.MAIN.CMD.SOUND
+[STF.MAIN.CMD.SOUND]
+Pos = 1240, 25
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_sound_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_main_cmd_sound_1.bmp
+Hint = Включить звуковые эффекты
+ToolBarOpaque = 1
+ToolBarBorder = 0
+ToolBarSpace  = 2
+ToolBarKey    = 1
+[]
+
+[SensorList]
+Sensor = STF.MAIN.CMD.SMILE
+[STF.MAIN.CMD.SMILE]
+Pos = 1290, 25
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_smile1.bmp
+Tag#2 = 1, ..\Bitmaps\stf_main_cmd_smile2.bmp
+Tag#3 = 2, ..\Bitmaps\stf_main_cmd_smile3.bmp
+Hint = Индикатор настроения
+ToolBarOpaque = 0
+ToolBarBorder = 0
+ToolBarSpace  = 2
+ToolBarKey    = 1
+[]
+
+[SensorList]
+Sensor = STF.MAIN.CMD.CLOSE
+[STF.MAIN.CMD.CLOSE]
+Pos = 1340, 25
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_exit.bmp
+Hint = Открыть меню выхода
+ToolBarOpaque = 1
+ToolBarBorder = 0
+ToolBarSpace  = 2
+ToolBarKey    = 1
+[]

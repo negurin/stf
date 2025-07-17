@@ -1,0 +1,126 @@
+[SensorList]
+Sensor = STF.TITLE
+[STF.TITLE]
+Pos = 10, 10
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:22\Color:Gray24
+Tag#1 = 0, ~~\resource\daqsite\stdlib\bitmaps\ledbmp_22_20_24_silver_ptmono.bmp "Синхротронный комплекс"
+Hint = Синхротронный комплекс испытательный
+[]
+
+[SensorList]
+Sensor = STF.TITLE.LINE
+[STF.TITLE.LINE]
+Pos = 9, 50
+Tag#1 = 0, ~~\resource\daqsite\stdlib\bitmaps\barbmp_360_4_24_gray24.bmp
+Hint = Синхротронный комплекс испытательный
+[]
+
+[SensorList]
+Sensor = STF.PARTICLE
+[STF.PARTICLE]
+Pos = 70, 145
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "p (протон)"
+Tag#2 = 1, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "n (нейтрон)"
+Tag#3 = 2, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "ТЗЧ"
+Tag#4 = 3, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "D (пыль)"
+Tag#5 = 4, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "Опилки"
+Hint = Тип ускоряемых частиц
+[]
+
+[SensorList]
+Sensor = STF.MODE
+[STF.MODE]
+Pos = 1200, 195
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:16\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_160_35_24_gray94.bmp "Автоматический"
+Tag#2 = 1, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_160_35_24_gray94.bmp "Ручной"
+Tag#3 = 2, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_160_35_24_gray94.bmp "Хаос"
+Hint = Режим работы синхротрона
+[]
+
+[SensorList]
+Sensor = STF.ENERGY
+[STF.ENERGY]
+Pos = 70, 255
+LED = 1, 1, 0, %1.1f, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp
+Hint = Энергия, МэВ/нуклон
+[]
+
+[SensorList]
+Sensor = STF.ENERGY.DN
+[STF.ENERGY.DN]
+Pos = 40, 255
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:20\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_30_30_24_silver.bmp "-"
+Hint = Уменьшить энергию
+[]
+
+[SensorList]
+Sensor = STF.ENERGY.UP
+[STF.ENERGY.UP]
+Pos = 245, 255
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:20\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_30_30_24_silver.bmp "+"
+Hint = Увеличить энергию
+[]
+
+[SensorList]
+Sensor = STF.INTENSITY
+[STF.INTENSITY]
+Pos = 70, 365
+LED = 1, 0, 0, %1.0e, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp
+Hint = Интенсивность, част/импульс
+[]
+
+[SensorList]
+Sensor = STF.INTENSITY.DN
+[STF.INTENSITY.DN]
+Pos = 40, 365
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:20\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_30_30_24_silver.bmp "-"
+Hint = Уменьшить энергию
+[]
+
+[SensorList]
+Sensor = STF.INTENSITY.UP
+[STF.INTENSITY.UP]
+Pos = 245, 365
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:20\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_30_30_24_silver.bmp "+"
+Hint = Увеличить энергию
+[]
+
+[SensorList]
+Sensor = STF.BA.BS.BREAK
+[STF.BA.BS.BREAK]
+Pos = 740, 495
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_break.bmp
+Hint = Сломать бустерный синхротрон
+[]
+
+[SensorList]
+Sensor = STF.BA.BS.HEAL
+[STF.BA.BS.HEAL]
+Pos = 690, 495
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_wand.bmp
+Hint = Починить бустерный синхротрон
+[]
+
+[SensorList]
+Sensor = STF.MS.BREAK
+[STF.MS.BREAK]
+Pos = 630, 135
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_break.bmp
+Hint = Сломать синхротрон
+[]
+
+[SensorList]
+Sensor = STF.MS.HEAL
+[STF.MS.HEAL]
+Pos = 580, 135
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_wand.bmp
+Hint = Починить синхротрон
+[]

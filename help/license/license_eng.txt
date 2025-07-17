@@ -1,0 +1,10 @@
+The DAQ-STF software. License for use and distribution.
+
+The DAQ-STF software is driver for STF system under CrwDaq system.
+You have to install CrwDaq software package first (see http://www.crw-daq.su).
+
+The DAQ-STF distributed under CrwDaq software license.
+
+Thank you for using CrwDaq software.
+
+CrwDaq Copyright (c) 2021-2025 DaqGroup daqgroup@mail.ru
