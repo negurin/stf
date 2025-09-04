@@ -19,7 +19,7 @@ sleep 5
 goto :EOF
 
 :Generate
-for /L %%i in (1, 1, 16) do call :AddSensor %%i >> "%crc%"
+for /L %%i in (1, 1, 13) do call :AddSensor %%i >> "%crc%"
 goto :EOF
 
 :AddSensor

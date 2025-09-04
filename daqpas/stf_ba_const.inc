@@ -4,4 +4,4 @@
  BsSectNumbers = 80;             {  }
  BpcSectNumbers = 19;            {  }
  BtcSectNumbers = 57;            {  }
- BtcTcxSectNumbers = 16;         {  }
+ BtcTcxSectNumbers = 13;         {  }

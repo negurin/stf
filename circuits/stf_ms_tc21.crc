@@ -1,7 +1,7 @@
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC1
 [STF.MS.TC.TC21.SEC1]
-Pos = 705, 202
+Pos = 698, 202
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -13,7 +13,7 @@ Hint = STF.MS.TC.TC21.SEC1
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC2
 [STF.MS.TC.TC21.SEC2]
-Pos = 709, 198
+Pos = 703, 199
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -25,7 +25,7 @@ Hint = STF.MS.TC.TC21.SEC2
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC3
 [STF.MS.TC.TC21.SEC3]
-Pos = 713, 194
+Pos = 708, 195
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -37,7 +37,7 @@ Hint = STF.MS.TC.TC21.SEC3
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC4
 [STF.MS.TC.TC21.SEC4]
-Pos = 717, 190
+Pos = 713, 191
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -49,7 +49,7 @@ Hint = STF.MS.TC.TC21.SEC4
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC5
 [STF.MS.TC.TC21.SEC5]
-Pos = 721, 186
+Pos = 718, 187
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -61,7 +61,7 @@ Hint = STF.MS.TC.TC21.SEC5
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC6
 [STF.MS.TC.TC21.SEC6]
-Pos = 725, 182
+Pos = 722, 184
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -73,7 +73,7 @@ Hint = STF.MS.TC.TC21.SEC6
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC7
 [STF.MS.TC.TC21.SEC7]
-Pos = 729, 178
+Pos = 727, 179
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -85,7 +85,7 @@ Hint = STF.MS.TC.TC21.SEC7
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC8
 [STF.MS.TC.TC21.SEC8]
-Pos = 733, 174
+Pos = 732, 174
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -97,7 +97,7 @@ Hint = STF.MS.TC.TC21.SEC8
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC9
 [STF.MS.TC.TC21.SEC9]
-Pos = 737, 170
+Pos = 737, 169
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -109,7 +109,7 @@ Hint = STF.MS.TC.TC21.SEC9
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC10
 [STF.MS.TC.TC21.SEC10]
-Pos = 741, 166
+Pos = 742, 164
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -121,7 +121,7 @@ Hint = STF.MS.TC.TC21.SEC10
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC11
 [STF.MS.TC.TC21.SEC11]
-Pos = 745, 162
+Pos = 747, 159
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -133,7 +133,7 @@ Hint = STF.MS.TC.TC21.SEC11
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC12
 [STF.MS.TC.TC21.SEC12]
-Pos = 749, 158
+Pos = 752, 154
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -145,7 +145,7 @@ Hint = STF.MS.TC.TC21.SEC12
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC13
 [STF.MS.TC.TC21.SEC13]
-Pos = 753, 154
+Pos = 757, 149
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -157,7 +157,7 @@ Hint = STF.MS.TC.TC21.SEC13
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC14
 [STF.MS.TC.TC21.SEC14]
-Pos = 757, 150
+Pos = 762, 144
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -169,7 +169,7 @@ Hint = STF.MS.TC.TC21.SEC14
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC15
 [STF.MS.TC.TC21.SEC15]
-Pos = 761, 146
+Pos = 767, 139
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -181,7 +181,7 @@ Hint = STF.MS.TC.TC21.SEC15
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC16
 [STF.MS.TC.TC21.SEC16]
-Pos = 765, 142
+Pos = 772, 134
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
@@ -193,168 +193,12 @@ Hint = STF.MS.TC.TC21.SEC16
 [SensorList]
 Sensor = STF.MS.TC.TC21.SEC17
 [STF.MS.TC.TC21.SEC17]
-Pos = 769, 138
+Pos = 777, 129
 Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
 Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
 Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
 Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
 Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
 Hint = STF.MS.TC.TC21.SEC17
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC18
-[STF.MS.TC.TC21.SEC18]
-Pos = 773, 134
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC18
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC19
-[STF.MS.TC.TC21.SEC19]
-Pos = 777, 130
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC19
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC20
-[STF.MS.TC.TC21.SEC20]
-Pos = 781, 126
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC20
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC21
-[STF.MS.TC.TC21.SEC21]
-Pos = 785, 122
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC21
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC22
-[STF.MS.TC.TC21.SEC22]
-Pos = 789, 118
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC22
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC23
-[STF.MS.TC.TC21.SEC23]
-Pos = 793, 114
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC23
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC24
-[STF.MS.TC.TC21.SEC24]
-Pos = 797, 110
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC24
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC25
-[STF.MS.TC.TC21.SEC25]
-Pos = 801, 106
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC25
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC26
-[STF.MS.TC.TC21.SEC26]
-Pos = 805, 102
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC26
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC27
-[STF.MS.TC.TC21.SEC27]
-Pos = 809, 98
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC27
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC28
-[STF.MS.TC.TC21.SEC28]
-Pos = 813, 94
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC28
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC29
-[STF.MS.TC.TC21.SEC29]
-Pos = 817, 90
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC29
-[]
-
-[SensorList]
-Sensor = STF.MS.TC.TC21.SEC30
-[STF.MS.TC.TC21.SEC30]
-Pos = 821, 86
-Tag#1 = 0, ..\Bitmaps\stf_ba_inj_st0.bmp
-Tag#2 = 1, ..\Bitmaps\stf_ba_inj_st1.bmp
-Tag#3 = 2, ..\Bitmaps\stf_ba_inj_st2.bmp
-Tag#4 = 3, ..\Bitmaps\stf_ba_inj_st3.bmp
-Tag#5 = 4, ..\Bitmaps\stf_ba_inj_st4.bmp
-Hint = STF.MS.TC.TC21.SEC30
 []
 

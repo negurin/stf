@@ -1,0 +1,119 @@
+[Circuit]
+GeneralMap = ..\bitmaps\stf_edg_ctrl.bmp
+Hint = Генератор электростатических разрядов
+ToolBarHeight = 0
+[]
+
+[ConfigFileList] ; Include the Painter GUI Library
+ConfigFile = ~~\resource\daqsite\default\painter.crc
+[]
+
+[SensorList]
+Sensor = @cron+@cron.run+STF.EDG.CTRL.HIDE
+[@cron+@cron.run+STF.EDG.CTRL.HIDE]
+Pos = 890, 15
+Tag#1 = 0, ..\Bitmaps\stf_main_cmd_close.bmp
+Hint = Закрыть окно
+[]
+
+[SensorList]
+Sensor = STF.EDG.GEN1.ENAB
+[STF.EDG.GEN1.ENAB]
+Pos = 184, 106
+Tag#1 = 0, ..\bitmaps\stf_edg_genx_enab_0.bmp
+Tag#2 = 1, ..\bitmaps\stf_edg_genx_enab_1.bmp
+Hint = Включить генератор 1
+[]
+
+[SensorList]
+Sensor = STF.EDG.GEN2.ENAB
+[STF.EDG.GEN2.ENAB]
+Pos = 184, 234
+Tag#1 = 0, ..\bitmaps\stf_edg_genx_enab_0.bmp
+Tag#2 = 1, ..\bitmaps\stf_edg_genx_enab_1.bmp
+Hint = Включить генератор 2
+[]
+
+[SensorList]
+Sensor = STF.EDG.GEN3.ENAB
+[STF.EDG.GEN3.ENAB]
+Pos = 184, 362
+Tag#1 = 0, ..\bitmaps\stf_edg_genx_enab_0.bmp
+Tag#2 = 1, ..\bitmaps\stf_edg_genx_enab_1.bmp
+Hint = Включить генератор 3
+[]
+
+[SensorList]
+Sensor = STF.EDG.GEN1.FREQ
+[STF.EDG.GEN1.FREQ]
+Pos = 120, 152
+LED = 9, 0, 0, %9.0f, Name:PT_Mono\Style:[Bold]\Size:13\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_105_30_24_cadetblue1.bmp
+Hint = Частота генератора 1
+[]
+
+[SensorList]
+Sensor = STF.EDG.GEN2.FREQ
+[STF.EDG.GEN2.FREQ]
+Pos = 120, 280
+LED = 9, 0, 0, %9.0f, Name:PT_Mono\Style:[Bold]\Size:13\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_105_30_24_cadetblue1.bmp
+Hint = Частота генератора 2
+[]
+
+[SensorList]
+Sensor = STF.EDG.GEN3.FREQ
+[STF.EDG.GEN3.FREQ]
+Pos = 120, 408
+LED = 9, 0, 0, %9.0f, Name:PT_Mono\Style:[Bold]\Size:13\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_105_30_24_cadetblue1.bmp
+Hint = Частота генератора 3
+[]
+
+[SensorList]
+Sensor = STF.EDG.COUNT
+[STF.EDG.COUNT]
+Pos = 376, 328
+LED = 9, 0, 0, %9.0f, Name:PT_Mono\Style:[Bold]\Size:13\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_105_30_24_gray94.bmp
+Hint = Счётчик импульсов
+[]
+
+[SensorList]
+Sensor = STF.EDG.FREQ
+[STF.EDG.FREQ]
+Pos = 376, 368
+LED = 9, 0, 0, %9.0f, Name:PT_Mono\Style:[Bold]\Size:13\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_105_30_24_gray94.bmp
+Hint = Частота МГЭСР
+[]
+
+[SensorList]
+Sensor = STF.EDG.START
+[STF.EDG.START]
+Pos = 297, 409
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:12\Color:Gray28
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_182_28_24_silver.bmp "Пуск"
+Tag#2 = 1, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_182_28_24_limegreen.bmp "Пуск"
+Hint = Запуск разрядов МГЭСР
+[]
+
+[SensorList]
+Sensor = STF.EDG.OBJECT
+[STF.EDG.OBJECT]
+Pos = 288, 96
+Tag#1 = 0, ..\Bitmaps\stf_edg_to_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_edg_to_1.bmp
+Tag#3 = 2, ..\Bitmaps\stf_edg_to_2.bmp
+Tag#4 = 3, ..\Bitmaps\stf_edg_to_3.bmp
+Hint = Объект испытаний
+[]
+
+[SensorList]
+Sensor = STF.EDG.ACTION
+[STF.EDG.ACTION]
+Pos = 433, 106
+Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_134_137_24_silver.bmp
+Tag#2 = 1, ..\Bitmaps\stf_edg_action_1.bmp
+Hint = Воздействие на объект
+[]

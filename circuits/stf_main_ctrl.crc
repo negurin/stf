@@ -1,6 +1,6 @@
 [Circuit]
 GeneralMap = ..\bitmaps\stf_main_ctrl.bmp
-Hint = Панель управления STF
+Hint = Синхротронный комплекс испытательный
 ToolBarHeight = 0
 []
 

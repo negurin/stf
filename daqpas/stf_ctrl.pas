@@ -46,8 +46,17 @@ type
   ENERGY : TTagRef;
   INTENSITY : TTagRef;
   MODE : TTagRef;
-  IntenLength : Integer;
-  EnergyValue : Integer;
+  EDG : TTagRef;
+  GAM : TTagRef;
+  EA : TTagRef;
+  TC11 : TTagRef;
+  TC12 : TTagRef;
+  TC13 : TTagRef;
+  TC41 : TTagRef;
+  TC42 : TTagRef;
+  TC43 : TTagRef;
+  intenLength : Integer;
+  energyValue : Integer;
  end;
 
 var
@@ -55,8 +64,8 @@ var
  {$I _var_StdLibrary}            { Include all Standard variables,  }
  {------------------------------}{ And add User defined variables:  }
  STF : TStfRec;
- cmd_Edit : Integer;             { @Edit                            }
- cmd_AssignTag : Integer;        { @AssignTag                       }
+ cmdEdit : Integer;              { @Edit                            }
+ cmdAssignTag : Integer;         { @AssignTag                       }
 
  {------------------------------}{ Declare procedures & functions:  }
  {$I _fun_StdLibrary}            { Include all Standard functions,  }
@@ -76,8 +85,8 @@ var
    procedure InitRunning;
    begin
     if IsValidIndex(REC.head) then bNul(iSetTag(REC.NUM[REC.head].tag, st_bunch));
-    if (REC.head>=STF.IntenLength) then begin
-     REC.tile:=REC.head-STF.IntenLength;
+    if (REC.head>=STF.intenLength) then begin
+     REC.tile:=REC.head-STF.intenLength;
      if IsValidIndex(REC.tile) then bNul(iSetTag(REC.NUM[REC.tile].tag, st_empty));
     end;
     REC.head:=REC.head+1;
@@ -88,7 +97,6 @@ var
     end;
    end;
 
-   //
    procedure PollRunning;
    begin
     if IsValidIndex(REC.head) then bNul(iSetTag(REC.NUM[REC.head].tag, st_bunch));
@@ -100,7 +108,7 @@ var
    end;
 
   begin
-   if (SysTimer_Pulse(STF.EnergyValue)>0) then begin
+   if (SysTimer_Pulse(STF.energyValue)>0) then begin
     if (REC.Init=stt_init)
     then InitRunning
     else if (REC.Init=stt_poll)
@@ -144,8 +152,7 @@ var
  }
  procedure SensorHelp(s:String);
  begin
-  if Length(s)>0 then ShowTooltip('guid '+Str(getpid)+'@'+ProgName+' text "'+s+'" preset stdHelp delay 15000 btn1 Справка cmd1 '
-                       +AnsiQuotedStr(GetEnv('WantedWebBrowser')+' '+DaqFileRef(ReadIni('[DAQ] HelpFile'), '.htm'), QuoteMark));
+  StdSensorHelpTooltip(s, 15000);
  end;
 
  {
@@ -163,21 +170,17 @@ var
    n:=n+EditAddConfirm('');
    n:=n+EditAddCommand('@AssignTag STF.PARTICLE 0'); // FIXIT: Magical number
    //////////////////////////////////////////
-   n:=n+EditAddInputLn('n - нейтроны');
+   n:=n+EditAddInputLn('ТЗЧ');
    n:=n+EditAddConfirm('');
    n:=n+EditAddCommand('@AssignTag STF.PARTICLE 1'); // FIXIT: Magical number 1
    //////////////////////////////////////////
-   n:=n+EditAddInputLn('ТЗЧ');
+   n:=n+EditAddInputLn('D (пыль)');
    n:=n+EditAddConfirm('');
    n:=n+EditAddCommand('@AssignTag STF.PARTICLE 2'); // FIXIT: Magical number 2
    //////////////////////////////////////////
-   n:=n+EditAddInputLn('D (пыль)');
-   n:=n+EditAddConfirm('');
-   n:=n+EditAddCommand('@AssignTag STF.PARTICLE 3'); // FIXIT: Magical number 3
-   //////////////////////////////////////////
    n:=n+EditAddInputLn('Опилки');
    n:=n+EditAddConfirm('');
-   n:=n+EditAddCommand('@AssignTag STF.PARTICLE 4'); // FIXIT: Magical number 4
+   n:=n+EditAddCommand('@AssignTag STF.PARTICLE 3'); // FIXIT: Magical number 3
    //////////////////////////////////////////
    n:=n+EditAddSetting('@set ListBox.Font Size:14\Style:[Bold]');
    n:=n+EditAddSetting(SetFormUnderSensorLeftBottom(ClickParams('')));
@@ -283,14 +286,39 @@ var
    s:=''; ClickCurve:=0;
   end;
 
+  procedure HandleMouseMoveOnSensor(var TAG:TTagRef; sens:String);
+  begin
+   if IsSameText(ClickSensor, sens) then begin
+    bNul(iSetTag(TAG.tag, 1));
+    TAG.tim:=0;
+   end else if (TAG.tim=0) then TAG.tim:=mSecNow;
+  end;
+
+  procedure ResetMouseMoveSensor(var TAG:TTagRef);
+  const ResetTimeout=300;
+  begin
+   if (msElapsedSinceMarker(TAG.tim)>ResetTimeout) then begin
+    bNul(iSetTag(TAG.tag, 0));
+    TAG.tim:=0;
+   end;
+  end;
+
  begin
   Cleanup;
+  {
+  Set ClickFilter on mouseMove
+  }
+  if (SysTimer_Pulse(1000)>0) then begin
+   i:=ClickFilter(0);
+   i:=iSetBitState(i, cw_MouseMove, true);
+   iNul(ClickFilter(i));
+  end;
   {
   Handle user mouse/keyboard clicks...
   ClickWhat=(cw_Nothing,cw_MouseDown,cw_MouseUp,cw_MouseMove,cw_KeyDown,cw_KeyUp,cw_MouseWheel,...)
   ClickButton=(VK_LBUTTON,VK_RBUTTON,VK_CANCEL,VK_MBUTTON,VK_BACK,VK_TAB,VK_CLEAR,VK_RETURN,...)
   }
-  if ClickWhat<>0 then
+  if (ClickWhat<>0) then
   repeat
    {
    Handle MouseDown/KeyDown
@@ -380,9 +408,10 @@ var
      if IsSameText(ClickSensor, 'STF.PARTICLE') then MenuParticleStarter;
      if IsSameText(ClickSensor, 'STF.MODE') then MenuModeStarter;
      if IsSameText(ClickSensor, 'HELP') then begin
-      Cron('@Browse '+DaqFileRef(ReadIni('[DAQ] HelpFile'), '.htm'));
+      DevPostCmdLocal('@BrowseHelp');
       bNul(Voice(snd_Click));
      end;
+     if IsSameText(ClickSensor, 'STF.EDG') then bNul(WinSelect('STF.EDG.CTRL'));
      {
      Select Plot & Tab windows by curve...
      }
@@ -403,16 +432,33 @@ var
     Handle Right mouse button click
     }
     if (ClickButton=VK_RBUTTON) then begin
-     SensorHelp(Url_Decode(ClickParams('Hint')));
-    end;
-    {
-    Handle Right mouse button click
-    }
-    if (ClickButton=VK_RBUTTON) then begin
      SensorHelp(ClickParams('Sensor')+' - '+Url_Decode(ClickParams('Hint')));
     end;
    end;
+   {
+   Handle mouse move
+   }
+   if (ClickWhat=cw_MouseMove) then begin
+    HandleMouseMoveOnSensor(STF.EDG, 'STF.EDG');
+    HandleMouseMoveOnSensor(STF.GAM, 'STF.GAM');
+    HandleMouseMoveOnSensor(STF.EA, 'STF.EA');
+    HandleMouseMoveOnSensor(STF.TC11, 'STF.BA.BTC.TC11');
+    HandleMouseMoveOnSensor(STF.TC12, 'STF.BA.BTC.TC12');
+    HandleMouseMoveOnSensor(STF.TC13, 'STF.BA.BTC.TC13');
+    HandleMouseMoveOnSensor(STF.TC41, 'STF.MS.TC.TC41');
+    HandleMouseMoveOnSensor(STF.TC42, 'STF.MS.TC.TC42');
+    HandleMouseMoveOnSensor(STF.TC43, 'STF.MS.TC.TC43');
+   end;
   until (ClickRead=0);
+  ResetMouseMoveSensor(STF.EDG);
+  ResetMouseMoveSensor(STF.GAM);
+  ResetMouseMoveSensor(STF.EA);
+  ResetMouseMoveSensor(STF.TC11);
+  ResetMouseMoveSensor(STF.TC12);
+  ResetMouseMoveSensor(STF.TC13);
+  ResetMouseMoveSensor(STF.TC41);
+  ResetMouseMoveSensor(STF.TC42);
+  ResetMouseMoveSensor(STF.TC43);
   {
   Edit handling...
   }
@@ -457,7 +503,7 @@ var
     if (tag=STF.PARTICLE.tag) then UpdateTag(tag, w2, 0, MaxInt);
     if (tag=STF.ENERGY.tag) then UpdateTag(tag, w2, MinEnergy, MaxEnergy);
     if (tag=STF.INTENSITY.tag) then UpdateTag(tag, w2, MinIntens, MaxIntens);
-    if (tag=STF.MODE.tag) then UpdateTag(tag, w2, MinIntens, MaxIntens);
+    if (tag=STF.MODE.tag) then UpdateTag(tag, w2, 0, MaxInt);
    end;
   end;
   Cleanup;
@@ -477,6 +523,15 @@ var
   InitTag(REC.ENERGY.tag, tagPrefix+'.ENERGY', 2);
   InitTag(REC.INTENSITY.tag, tagPrefix+'.INTENSITY', 1);
   InitTag(REC.MODE.tag, tagPrefix+'.MODE', 1);
+  InitTag(REC.EDG.tag, tagPrefix+'.EDG', 1);
+  InitTag(REC.GAM.tag, tagPrefix+'.GAM', 1);
+  InitTag(REC.EA.tag, tagPrefix+'.EA', 1);
+  InitTag(REC.TC11.tag, tagPrefix+'.BA.BTC.TC11', 1);
+  InitTag(REC.TC12.tag, tagPrefix+'.BA.BTC.TC12', 1);
+  InitTag(REC.TC13.tag, tagPrefix+'.BA.BTC.TC13', 1);
+  InitTag(REC.TC41.tag, tagPrefix+'.MS.TC.TC41', 1);
+  InitTag(REC.TC42.tag, tagPrefix+'.MS.TC.TC42', 1);
+  InitTag(REC.TC43.tag, tagPrefix+'.MS.TC.TC43', 1);
  end;
 
  {
@@ -516,7 +571,7 @@ var
   bNul(iSetTag(STF.PARTICLE.tag, 0));
   bNul(rSetTag(STF.ENERGY.tag, 10));
   bNul(iSetTag(STF.INTENSITY.tag, 3));
-  STF.IntenLength:=1;
+  STF.intenLength:=1;
   //
   StfBaRecInit;
   StfMsRecInit;
@@ -532,8 +587,8 @@ var
   iNul(ClickFilter(ClickFilter(1)));
   iNul(ClickAwaker(ClickAwaker(1)));
   StfMainInit;
-  cmd_Edit:=RegisterStdInCmd('@Edit', '');
-  cmd_AssignTag:=RegisterStdInCmd('@AssignTag', '');
+  cmdEdit:=RegisterStdInCmd('@Edit', '');
+  cmdAssignTag:=RegisterStdInCmd('@AssignTag', '');
  end;
 
  {
@@ -550,8 +605,8 @@ var
  begin
   GUIHandler;
   LogicControl;
-  STF.IntenLength:=iGetTag(STF.INTENSITY.tag);
-  STF.EnergyValue:=Round(50-(rGetTag(STF.ENERGY.tag)/3)); // FIXIT: Magical numbers
+  STF.intenLength:=iGetTag(STF.INTENSITY.tag);
+  STF.energyValue:=Round(50-(rGetTag(STF.ENERGY.tag)/3)); // FIXIT: Magical numbers
  end;
 
  {
@@ -576,7 +631,7 @@ var
    @Edit tag - Show tag edit dialog for tag
    @Edit STF.ENERGY - Enter Beam energy
    }
-   if (cmdid=cmd_Edit) then begin
+   if (cmdid=cmdEdit) then begin
     par:=mime_decode(ExtractWord(2, arg));
     s:=ExtractWord(1, arg);
     tag:=FindTag(s);
@@ -588,7 +643,7 @@ var
    @AssignTag t v - Assign tag t (tag name) to value v
    @AssignTag STF.PARTICLE 1 - Set particle type to 0
    }
-   if (cmdid=cmd_AssignTag) then begin
+   if (cmdid=cmdAssignTag) then begin
     OnAssignTag(arg);
     Data:='';
    end else

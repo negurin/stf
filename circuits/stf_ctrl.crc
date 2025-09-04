@@ -16,15 +16,104 @@ Hint = Синхротронный комплекс испытательный
 []
 
 [SensorList]
+Sensor = STF.EDG
+[STF.EDG]
+Pos = 784, 336
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_edg_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_edg_1.bmp
+Hint = Многоканальный генератор электростатических разрядов
+[]
+
+[SensorList]
+Sensor = STF.EA
+[STF.EA]
+Pos = 992, 336
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_ea_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ea_1.bmp
+Hint = Ускоритель электронов
+[]
+
+[SensorList]
+Sensor = STF.GAM
+[STF.GAM]
+Pos = 160, 576
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_gam_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_gam_1.bmp
+Hint = Гамма установка
+[]
+
+[SensorList]
+Sensor = STF.BA.BTC.TC11
+[STF.BA.BTC.TC11]
+Pos = 485, 653
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_ba_btc_tcx_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_btc_tc11_1.bmp
+Hint = Испытательная камера 1.1
+[]
+
+[SensorList]
+Sensor = STF.BA.BTC.TC12
+[STF.BA.BTC.TC12]
+Pos = 409, 653
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_ba_btc_tcx_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_btc_tc12_1.bmp
+Hint = Испытательная камера 1.2
+[]
+
+[SensorList]
+Sensor = STF.BA.BTC.TC13
+[STF.BA.BTC.TC13]
+Pos = 317, 653
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_ba_btc_tcx_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ba_btc_tc13_1.bmp
+Hint = Испытательная камера 1.3
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC41
+[STF.MS.TC.TC41]
+Pos = 1038, 220
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_ms_tc_tcx_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ms_tc_tc41_1.bmp
+Hint = Испытательная камера 4.1
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC42
+[STF.MS.TC.TC42]
+Pos = 854, 46
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_ms_tc_tcx_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ms_tc_tc42_1.bmp
+Hint = Испытательная камера 4.2
+[]
+
+[SensorList]
+Sensor = STF.MS.TC.TC43
+[STF.MS.TC.TC43]
+Pos = 758, 46
+LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
+Tag#1 = 0, ..\Bitmaps\stf_ms_tc_tcx_0.bmp
+Tag#2 = 1, ..\Bitmaps\stf_ms_tc_tc43_1.bmp
+Hint = Испытательная камера 4.3
+[]
+
+[SensorList]
 Sensor = STF.PARTICLE
 [STF.PARTICLE]
 Pos = 70, 145
 LED = 0, 0, 0, *, Name:PT_Sans\Style:[Bold]\Size:18\Color:Gray28
 Tag#1 = 0, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "p (протон)"
-Tag#2 = 1, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "n (нейтрон)"
-Tag#3 = 2, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "ТЗЧ"
-Tag#4 = 3, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "D (пыль)"
-Tag#5 = 4, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "Опилки"
+Tag#2 = 1, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "ТЗЧ"
+Tag#3 = 2, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "D (пыль)"
+Tag#4 = 3, ~~\Resource\DaqSite\StdLib\Bitmaps\barbmp_175_30_24_silver.bmp "Опилки"
 Hint = Тип ускоряемых частиц
 []
 
@@ -96,7 +185,7 @@ Hint = Увеличить энергию
 [SensorList]
 Sensor = STF.BA.BS.BREAK
 [STF.BA.BS.BREAK]
-Pos = 740, 495
+Pos = 746, 494
 Tag#1 = 0, ..\Bitmaps\stf_main_cmd_break.bmp
 Hint = Сломать бустерный синхротрон
 []
@@ -104,7 +193,7 @@ Hint = Сломать бустерный синхротрон
 [SensorList]
 Sensor = STF.BA.BS.HEAL
 [STF.BA.BS.HEAL]
-Pos = 690, 495
+Pos = 694, 494
 Tag#1 = 0, ..\Bitmaps\stf_main_cmd_wand.bmp
 Hint = Починить бустерный синхротрон
 []
@@ -112,7 +201,7 @@ Hint = Починить бустерный синхротрон
 [SensorList]
 Sensor = STF.MS.BREAK
 [STF.MS.BREAK]
-Pos = 630, 135
+Pos = 630, 134
 Tag#1 = 0, ..\Bitmaps\stf_main_cmd_break.bmp
 Hint = Сломать синхротрон
 []
@@ -120,7 +209,7 @@ Hint = Сломать синхротрон
 [SensorList]
 Sensor = STF.MS.HEAL
 [STF.MS.HEAL]
-Pos = 580, 135
+Pos = 578, 134
 Tag#1 = 0, ..\Bitmaps\stf_main_cmd_wand.bmp
 Hint = Починить синхротрон
 []

@@ -9,9 +9,9 @@ goto :EOF
 :Main
 if "%~1" == "" goto :EOF
 set crc=%~1
-set /a posx=525
-set /a posy=272
-set /a xstp=4
+set /a posx=697
+set /a posy=209
+set /a xstp=5
 call :DeleteFile "%crc%"
 call :Generate
 echo Done.
@@ -19,7 +19,7 @@ sleep 5
 goto :EOF
 
 :Generate
-for /L %%i in (1, 1, 30) do call :AddSensor %%i >> "%crc%"
+for /L %%i in (1, 1, 17) do call :AddSensor %%i >> "%crc%"
 goto :EOF
 
 :AddSensor
